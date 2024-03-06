@@ -1,3 +1,5 @@
+##  GEM-ANNOTATOR
+
 ## Introduction
 
 An annotation software that can annotate images, text, and other content. Continuously updating...
@@ -6,6 +8,7 @@ An annotation software that can annotate images, text, and other content. Contin
 Create a new conda environment:
 ```shell
 conda create -n gem-annotator python=3.11
+conda activate gem-annotator
 ```
 Install necessary packages：
 
