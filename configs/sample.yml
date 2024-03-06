@@ -1,0 +1,16 @@
+
+
+WINDOW:
+  CONFIG:
+    DEFAULT_FILE_FOLDER: './dataset/files_folder/'
+    DEFAULT_ANNOTATOR_FOLDER: './dataset/annotator/'
+  CONTROL:
+    AUTO_SAVE:
+      ENABLED: True
+
+REQUEST_PROTOCOL:
+  IMAGE_SUFFIX: ['png', 'jpg', 'jpeg', 'bmp']
+
+LOG:
+  LEVEL: 'INFO'
+  FILE_PATH: 'logs/logs.log'
